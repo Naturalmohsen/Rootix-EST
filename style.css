@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: url(./img/bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav-col {
+  direction: rtl;
+}
+.scroll-cta {
+  padding-top: 10rem;
+}
+.text-in-header {
+  font-size: 3.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .image-1 {
+    width: 193px;
+    position: absolute;
+    top: 522px;
+    left: 887px;
+  }
+  .image-2 {
+    position: absolute;
+    width: 491px;
+    top: 460px;
+    left: 630px;
+  }
+  .text-in-header {
+    font-size: 6rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .image-1 {
+    width: 231px;
+    position: absolute;
+    top: 410px;
+    left: 1080px;
+  }
+  .image-2 {
+    position: absolute;
+    width: 572px;
+    top: 360px;
+    left: 788px;
+  }
+  .text-in-header {
+    font-size: 6rem;
+  }
+}
+.content{
+    background-color:#F4F1F1;
+}
